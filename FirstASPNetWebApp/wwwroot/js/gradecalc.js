@@ -10,3 +10,4 @@ $("#btnCalc").click(function () {
         (parseInt($("#intex").val()) * .1);
 
     alert("Your final grade is " + String(finalGrade));
+})
