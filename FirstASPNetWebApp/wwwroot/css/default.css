@@ -1,11 +1,13 @@
-﻿body {
+﻿/*body styles*/
+body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 li {
     list-style-type: none;
-}
 
+}
+/*form styles*/
 .form-style-5 {
     max-width: 500px;
     padding: 10px 20px;
