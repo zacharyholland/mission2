@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\" />
-    <Content Remove="wwwroot\index.html" />
     <Content Remove="wwwroot\images\" />
     <Content Remove="wwwroot\js\" />
     <Content Remove="wwwroot\lib\" />
@@ -26,8 +25,11 @@
     <Folder Include="wwwroot\lib\bootstrap\" />
     <Folder Include="wwwroot\lib\bootstrap\js\" />
     <Folder Include="wwwroot\lib\bootstrap\css\" />
+    <Folder Include="Views\" />
+    <Folder Include="Views\Blah\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="wwwroot\index.html" />
+    <None Remove="Views\" />
+    <None Remove="Views\Blah\" />
   </ItemGroup>
 </Project>
